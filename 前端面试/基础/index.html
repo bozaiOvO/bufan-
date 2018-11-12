@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var a = []
+		var b = {}
+		a.a1 = 100
+		b.b1 = 100
+		console.log(a.__proto__)
+		console.log(b.__proto__)
+		console.log(a.__proto__===Array.prototype)
+		console.log(b.__proto__===Object.prototype)
+		console.log(b.toString())
+		console.log(a instanceof Object)
+	</script>
+</body>
+</html>
